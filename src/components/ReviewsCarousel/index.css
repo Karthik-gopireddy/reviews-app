@@ -1,0 +1,87 @@
+/* Write your code here */
+* {
+  margin: 0px;
+  font-family: roboto;
+}
+.leftarrow {
+  cursor: pointer;
+}
+.rightarrow {
+  cursor: pointer;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.background-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.tittle {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.image1 {
+  margin-bottom: 10px;
+}
+.p1 {
+  color: #fff;
+  font-weight: bold;
+}
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.job {
+  color: #171f46;
+}
+.description {
+  margin-top: 30px;
+  text-align: center;
+  color: #171f46;
+}
+.content {
+  width: 300px;
+}
+@media all and (min-width: 768px) {
+  .background-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+  }
+  .tittle {
+    font-size: 45px;
+  }
+  .image1 {
+    height: 150px;
+    width: 150px;
+  }
+  .p1 {
+    font-size: 20px;
+  }
+  .arrows {
+    width: 720px;
+  }
+  .description {
+    font-size: 25px;
+  }
+  .job {
+    font-size: 18px;
+  }
+  .content {
+    width: 600px;
+  }
+}
